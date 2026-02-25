@@ -14,7 +14,7 @@ const apiKey = "tähän api avain"
 
 export default function App() {
   const [search, setSearch] = useState('Oulu');
-  const [weather, setWeather] = useState<WeatherData | null>(null); // Use null for initial state
+  const [weather, setWeather] = useState<WeatherData | null>(null)
 
 
   useEffect(() => {
